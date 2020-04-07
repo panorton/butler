@@ -8,7 +8,7 @@ grafana:
   pkgrepo.managed:
     - humanname: Grafana YUM repo
     - baseurl: https://packages.grafana.com/oss/rpm
-    - gpgkey: https://packagecloud.io/gpg.key https://grafanarel.s3.amazonaws.com/RPM-GPG-KEY-grafana
+    - gpgkey: https://packages.grafana.com/gpg.key
   pkg.installed:
     - name: grafana
   service.running:
