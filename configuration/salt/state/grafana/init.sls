@@ -7,7 +7,7 @@ fontconfig:
 grafana:
   pkgrepo.managed:
     - humanname: Grafana YUM repo
-    - baseurl: https://packagecloud.io/grafana/stable/el/6/x86_64
+    - baseurl: https://packages.grafana.com/oss/rpm
     - gpgkey: https://packagecloud.io/gpg.key https://grafanarel.s3.amazonaws.com/RPM-GPG-KEY-grafana
   pkg.installed:
     - name: grafana
