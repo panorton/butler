@@ -8,7 +8,7 @@ butler-heal-clone:
     
 install_butler_healing_agent:
   cmd.run:
-    - name: pip install -e .
+    - name: pip3 install -e .
     - cwd: /opt/butler/heal/
 
 /opt/butler/heal/healing_agent/bin/butler_healing_agent:
