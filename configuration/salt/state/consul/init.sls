@@ -69,8 +69,7 @@ agent:
     - user: root
     - group: root
     - mode: 644
-
-    
+  
 consul:
   service.running:
     - enable: True
