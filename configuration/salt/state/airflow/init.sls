@@ -15,7 +15,7 @@ install_numpy:
   
 install_airflow:
   pip.installed: 
-    - name: airflow
+    - name: apache-airflow
     - upgrade: True
     
 install_statsd:
