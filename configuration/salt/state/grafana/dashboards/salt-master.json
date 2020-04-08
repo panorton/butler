@@ -330,7 +330,7 @@
                 "type"
               ],
               "measurement": "/interface_[rt]x/",
-              "query": "SELECT derivative(value) FROM /interface_[rt]x/ WHERE \"host\" = 'salt-master' AND \"type\" = 'if_packets' AND \"instance\" = 'eth0' AND $timeFilter GROUP BY time($interval), \"type\"",
+              "query": "SELECT derivative(value) FROM /interface_[rt]x/ WHERE \"host\" = 'salt-master' AND \"type\" = 'if_packets' AND \"instance\" = 'ens33' AND $timeFilter GROUP BY time($interval), \"type\"",
               "tags": [
                 {
                   "key": "host",
@@ -347,7 +347,7 @@
                   "condition": "AND",
                   "key": "instance",
                   "operator": "=",
-                  "value": "eth0"
+                  "value": "ens33"
                 }
               ]
             }

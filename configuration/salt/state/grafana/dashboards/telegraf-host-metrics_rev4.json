@@ -1649,11 +1649,11 @@
               "yaxis": 1
             },
             {
-              "alias": "eth0:IN",
+              "alias": "ens33:IN",
               "yaxis": 1
             },
             {
-              "alias": "eth0:OUT",
+              "alias": "ens33:OUT",
               "yaxis": 1
             }
           ],
