@@ -11,7 +11,7 @@ fileserver_backend:
 gitfs_provider: gitpython
 
 gitfs_remotes:
-  - git://github.com/llevar/butler.git:
+  - git://github.com/panorton/butler.git:
     - root: configuration/salt/state
     - base: master
 
@@ -27,7 +27,7 @@ ext_pillar:
 #  - hiera: /etc/hiera.yaml
 #  - cmd_yaml: cat /etc/salt/yaml
   - git:
-    - master git://github.com/llevar/butler.git:
+    - master git://github.com/panorton/butler.git:
       - root: configuration/salt/pillar
       - env: base
 
