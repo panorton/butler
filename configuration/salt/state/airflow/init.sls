@@ -1,7 +1,7 @@
 prereqs_pip:
   pkg.latest:
     - pkgs: 
-      - python-pip
+      - python2-pip
       - gcc
       - python-devel
       - python-psycopg2
