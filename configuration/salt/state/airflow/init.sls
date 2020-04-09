@@ -4,6 +4,7 @@ prereqs_pip:
       - python2-pip
       - gcc
       - python-devel
+      - python3-devel
       - python-psycopg2
 
   
