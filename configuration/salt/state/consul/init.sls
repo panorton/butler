@@ -46,13 +46,13 @@ agent:
     - mode: 755
     - makedirs: True
 
-/etc/opt/consul.d/:
-  file.recurse:
-    - source: salt://consul/config/host-level-checks
-    - user: root
-    - group: root
-    - dir_mode: 755
-    - file_mode: 644
+# /etc/opt/consul.d/:
+#  file.recurse:
+#    - source: salt://consul/config/host-level-checks
+#    - user: root
+#    - group: root
+#    - dir_mode: 755
+#    - file_mode: 644
 
 /etc/opt/consul.d/consul-config.json:
   file.managed:
