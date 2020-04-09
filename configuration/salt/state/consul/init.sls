@@ -4,11 +4,10 @@ unzip:
 agent:
   archive.extracted:
     - name: /opt/consul/agent
-    - source: https://releases.hashicorp.com/consul/1.3.0/consul_1.3.0_linux_amd64.zip
-    - source_hash: a6896509b72fa229496b3adda51357c95d68a796ae3328d7d6a61195d6c68bac
+    - source: https://releases.hashicorp.com/consul/1.7.2/consul_1.7.2_linux_amd64.zip
+    - source_hash: 5ab689cad175c08a226a5c41d16392bc7dd30ceaaf90788411542a756773e698
     - archive_format: zip
     - enforce_toplevel: False
-
 
 /opt/consul/agent/consul:
   file.managed:
