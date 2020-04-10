@@ -1,3 +1,8 @@
+install_wheel:
+  pip.installed: 
+    - name: wheel
+    - upgrade: True
+
 install_cwltool:
   pip.installed: 
     - name: cwlref-runner
