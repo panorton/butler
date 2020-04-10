@@ -7,7 +7,7 @@ After=network-online.target
 EnvironmentFile=/etc/sysconfig/airflow
 Environment=
 Restart=on-failure
-ExecStart=/usr/bin/airflow webserver
+ExecStart=/usr/local/bin/airflow webserver
 ExecReload=/bin/kill -HUP $MAINPID
 KillSignal=SIGINT
 
