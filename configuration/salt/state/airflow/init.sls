@@ -7,6 +7,7 @@ prereqs_pip:
       - python-psycopg2
       - python3-devel
       - python3-psycopg2
+      - flask_cache
 
   
 install_numpy:
