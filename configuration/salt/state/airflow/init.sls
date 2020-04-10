@@ -5,6 +5,7 @@ prereqs_pip:
       - gcc
       - python-devel
       - python-psycopg2
+      - python3-devel
 
   
 install_numpy:
