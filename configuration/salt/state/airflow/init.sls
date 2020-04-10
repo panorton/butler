@@ -7,15 +7,17 @@ prereqs_pip:
       - python-psycopg2
       - python3-devel
       - python3-psycopg2
-      - flask_cache
 
-  
+install_flask_cache:
+  pip.installed: 
+    - name: flask_cache
+    - upgrade: True
+
 install_numpy:
   pip.installed: 
     - name: numpy
     - upgrade: True
     
-  
 install_airflow:
   pip.installed: 
     - name: apache-airflow
