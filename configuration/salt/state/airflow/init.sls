@@ -1,11 +1,10 @@
 prereqs_pip:
   pkg.latest:
     - pkgs: 
-      - python3-pip
+      - python2-pip
       - gcc
       - python-devel
-      - python3-devel
-      - python3-psycopg2
+      - python-psycopg2
 
   
 install_numpy:
