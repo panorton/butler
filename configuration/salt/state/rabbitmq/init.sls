@@ -24,13 +24,13 @@ rabbitmq_vhost:
 rabbitmq_user:
   rabbitmq_user.present:
     - name: {{ pillar['rabbitmq.user'] }}
-    - password: {{ pillar['rabbitmq.password'] }}
+    # - password: {{ pillar['rabbitmq.password'] }}
+    - password: butler
     - tags: 
       - management
       - administrator
     - perms:
-      # - '{{ pillar['rabbitmq.vhost'] }}':
-      - 'butler_vhost':
+      - '{{ pillar['rabbitmq.vhost'] }}':
         - '.*'
         - '.*'
         - '.*'
