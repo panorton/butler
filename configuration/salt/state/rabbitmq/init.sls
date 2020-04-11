@@ -29,7 +29,8 @@ rabbitmq_user:
       - management
       - administrator
     - perms:
-      - '{{ pillar['rabbitmq.vhost'] }}':
+      # - '{{ pillar['rabbitmq.vhost'] }}':
+      - 'butler_vhost':
         - '.*'
         - '.*'
         - '.*'
